@@ -1,5 +1,6 @@
 import datetime as dt
 import os
+import sys
 sys.path.append(os.getenv("/opt/bitnami/airflow/dags/local/dag_folder/DAG_1"))
 from airflow import DAG
 from airflow.operators.bash_operator import BashOperator
